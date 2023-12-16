@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.converter{
+    background-image: url(./img/weather-images.jpg);
+    height: 200px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+
+.converter-id{
+    display: block;
+    margin: 20px;
+    width: 80px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.converter-button{
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    margin: 20px;
+    
+}
