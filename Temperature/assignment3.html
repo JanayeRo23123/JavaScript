@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="./assignment3.html">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Temperature Conversion</h1>
+    </header>
+
+    <div class="converter">
+        <label for="Temperature">Enter Temperature:</label>
+        <input type="number" id="Temp" placeholder="Enter Temperature">
+
+        <label for="scale">Unit:</label>
+        <select id="scale">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+        <button class="converter-button" onclick="conversion()">Convert</button>
+        <div class="converter-id"></div>
+        
+        <div id="results">
+            <h3>Results:</h3>
+        </div>
+
+
+        <img src="./img/weather-images.jpg" alt="">
+    </div>
+
+    <script src="./scripts/assignment3.js"></script>
+</body>
+</html>
